@@ -179,10 +179,6 @@ sudo ./build_openroad.sh --threads N
 
 将使用docker进行构建，创建一个docker镜像。
 
-成功使用docker辅助构建OpenROAD：
-
-![HU94]1E$C@VXAB_Z6~SLMB6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/903e3adf-78d8-461c-b2c4-398c83425340/HU941ECVXAB_Z6SLMB6.png)
-
 接下来验证安装是否成功。
 
 二进制工具链存放在Docker容器中。运行一个docker容器：
@@ -202,6 +198,4 @@ make
 exit
 ```
 
-make后显示产生了gds文件，说明工具链构建成功：
-
-![IW37L`BP~@N_J2TN]]MQ7]G.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84d19644-4b89-4610-9aa4-6ff1750eb916/IW37LBPN_J2TNMQ7G.png)
+make后显示产生了gds文件，说明工具链构建成功。
